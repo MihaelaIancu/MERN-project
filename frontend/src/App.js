@@ -1,7 +1,18 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import LandingPage from "./screens/LandingPage/LandingPage";
 
 function App() {
-  return <h1 className="App">Hello World!</h1>;
+  return (
+    <div>
+      <Header />
+      <main>
+        <LandingPage></LandingPage>
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
