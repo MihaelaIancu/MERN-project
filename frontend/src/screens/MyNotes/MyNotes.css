@@ -1,0 +1,18 @@
+.accordion-button[aria-expanded="true"] {
+  border: none !important;
+  background-color: transparent;
+}
+
+.accordion-button[aria-expanded="false"] {
+  border: none !important;
+  background-color: transparent;
+}
+
+.accordion-button[aria-expanded="false"] .collapsed {
+  border: none !important;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
